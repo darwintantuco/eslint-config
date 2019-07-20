@@ -33,7 +33,7 @@ Update `.eslintrc.js`
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@dcrtantuco/stylelint-config']
+  extends: ['@dcrtantuco/eslint-config']
 }
 ```
 
