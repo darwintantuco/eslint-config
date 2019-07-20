@@ -1,6 +1,6 @@
 {
   "name": "@dcrtantuco/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal eslint config",
   "main": "index.js",
   "repository": "git@github.com:dcrtantuco/eslint-config.git",
