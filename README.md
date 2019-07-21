@@ -27,7 +27,7 @@ npm install eslint eslint-plugin-react eslint-plugin-jsx-a11y @dcrtantuco/eslint
 ### yarn
 
 ```
-yarn add eslint eslint-plugin-react @eslint-plugin-jsx-a11y dcrtantuco/eslint-config --dev
+yarn add eslint eslint-plugin-react eslint-plugin-jsx-a11y @dcrtantuco/eslint-config --dev
 ```
 
 ## Usage
