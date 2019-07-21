@@ -6,24 +6,28 @@ My personal eslint config
 
 ## Dependencies
 
-- eslint-config-prettier
+- eslint-plugin-react
+- eslint-plugin-jsx-a11y
 
 ## Extends
 
 - eslint:recommended
+- plugin:react/recommended
+- plugin:jsx-a11y/recommended
+- prettier
 
 ## Installation
 
 ### npm
 
 ```
-npm install eslint @dcrtantuco/eslint-config --save-dev
+npm install eslint eslint-plugin-react eslint-plugin-jsx-a11y @dcrtantuco/eslint-config --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add eslint @dcrtantuco/eslint-config --dev
+yarn add eslint eslint-plugin-react @eslint-plugin-jsx-a11y dcrtantuco/eslint-config --dev
 ```
 
 ## Usage

@@ -16,6 +16,7 @@
     "prettier:fix": "prettier --write '**/*.{css,scss}' '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.0.0"
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2"
   }
 }
