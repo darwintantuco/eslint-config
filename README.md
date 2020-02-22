@@ -1,6 +1,6 @@
 # eslint-config
 
-[![Build Status](https://travis-ci.org/dcrtantuco/eslint-config.svg?branch=master)](https://travis-ci.org/dcrtantuco/eslint-config)
+[![Build Status](https://travis-ci.org/darwintantuco/eslint-config.svg?branch=master)](https://travis-ci.org/darwintantuco/eslint-config)
 
 My personal eslint config
 
@@ -21,13 +21,13 @@ My personal eslint config
 ### npm
 
 ```
-npm install eslint eslint-plugin-react eslint-plugin-jsx-a11y @dcrtantuco/eslint-config --save-dev
+npm install eslint eslint-plugin-react eslint-plugin-jsx-a11y @darwintantuco/eslint-config --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add eslint eslint-plugin-react eslint-plugin-jsx-a11y @dcrtantuco/eslint-config --dev
+yarn add eslint eslint-plugin-react eslint-plugin-jsx-a11y @darwintantuco/eslint-config --dev
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ Update `.eslintrc.js`
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@dcrtantuco/eslint-config']
+  extends: ['@darwintantuco/eslint-config']
 }
 ```
 
@@ -45,7 +45,7 @@ Or add eslint config in `package.json`
 
 ```json
 {
-  "eslintConfig": { "extends": ["@dcrtantuco/eslint-config"] },
+  "eslintConfig": { "extends": ["@darwintantuco/eslint-config"] },
   "scripts": {
     "lint:js": "eslint 'js/**/*.js'"
   }
