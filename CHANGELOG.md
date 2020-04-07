@@ -2,10 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.2] - 2019-07-21
+## [1.0.1] - 2020-04-08
 
-- Added eslint-plugin-react and eslint-plugin-jsx-a11y
+- Add typescript support
 
-## [1.0.1] - 2019-07-20
+## [1.0.0] - 2020-02-22
 
 - Initial release
