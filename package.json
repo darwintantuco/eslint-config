@@ -8,17 +8,20 @@
   "license": "MIT",
   "devDependencies": {
     "@darwintantuco/prettier-config": "^1.0.0",
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.4"
   },
   "prettier": "@darwintantuco/prettier-config",
   "scripts": {
-    "prettier:check": "prettier --list-different '**/*.{css,scss}' '**/*.{js,jsx,ts,tsx}'",
-    "prettier:fix": "prettier --write '**/*.{css,scss}' '**/*.{js,jsx,ts,tsx}'"
+    "prettier:check": "prettier --list-different '**/*.{js,jsx,ts,tsx}'",
+    "prettier:fix": "prettier --write '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3",
     "@typescript-eslint/parser": "^2.27.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-react": "^7.14.2"
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-config-prettier": "^6.10.1"
   }
 }
