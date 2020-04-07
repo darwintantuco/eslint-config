@@ -6,8 +6,13 @@ My personal eslint config
 
 ## Dependencies
 
+- eslint
+- typescript
+- @typescript-eslint/parser
+- @typescript-eslint/eslint-plugin
 - eslint-plugin-react
 - eslint-plugin-jsx-a11y
+- eslint-config-prettier
 
 ## Extends
 
@@ -21,13 +26,13 @@ My personal eslint config
 ### npm
 
 ```
-npm install eslint eslint-plugin-react eslint-plugin-jsx-a11y @darwintantuco/eslint-config --save-dev
+npm install @darwintantuco/eslint-config --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add eslint eslint-plugin-react eslint-plugin-jsx-a11y @darwintantuco/eslint-config --dev
+yarn add @darwintantuco/eslint-config --dev
 ```
 
 ## Usage
@@ -37,7 +42,7 @@ Update `.eslintrc.js`
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@darwintantuco/eslint-config']
+  extends: ['@darwintantuco/eslint-config'],
 }
 ```
 
@@ -47,7 +52,7 @@ Or add eslint config in `package.json`
 {
   "eslintConfig": { "extends": ["@darwintantuco/eslint-config"] },
   "scripts": {
-    "lint:js": "eslint 'js/**/*.js'"
+    "lint:js": "eslint 'js/**/*.{js,jsx,ts,tsx}'"
   }
 }
 ```
