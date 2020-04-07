@@ -14,13 +14,6 @@ My personal eslint config
 - eslint-plugin-jsx-a11y
 - eslint-config-prettier
 
-## Extends
-
-- eslint:recommended
-- plugin:react/recommended
-- plugin:jsx-a11y/recommended
-- prettier
-
 ## Installation
 
 ### npm
