@@ -7,21 +7,21 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'prettier'
+    'prettier/@typescript-eslint',
   ],
   env: {
     es6: true,
     node: true,
     browser: true,
-    jest: true
+    jest: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   settings: {
     react: {
-      version: 'detect'
-    }
-  }
+      version: 'detect',
+    },
+  },
 }
