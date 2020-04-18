@@ -1,6 +1,6 @@
 {
   "name": "@darwintantuco/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My personal eslint config",
   "main": "index.js",
   "repository": "git@github.com:darwintantuco/eslint-config.git",
@@ -8,6 +8,7 @@
   "license": "MIT",
   "devDependencies": {
     "@darwintantuco/prettier-config": "^1.0.0",
+    "husky": "^4.2.5",
     "prettier": "^2.0.4"
   },
   "prettier": "@darwintantuco/prettier-config",
@@ -15,13 +16,18 @@
     "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
     "prettier:fix": "prettier --write '**/*.{js,json,md}'"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn prettier:check"
+    }
+  },
   "dependencies": {
-    "eslint": "^6.8.0",
-    "typescript": "^3.8.3",
-    "@typescript-eslint/parser": "^2.27.0",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
-    "eslint-plugin-react": "^7.19.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-config-prettier": "^6.10.1"
+    "eslint-plugin-react": "^7.19.0",
+    "typescript": "^3.8.3"
   }
 }

@@ -1,6 +1,6 @@
 # eslint-config
 
-[![Build Status](https://travis-ci.org/darwintantuco/eslint-config.svg?branch=master)](https://travis-ci.org/darwintantuco/eslint-config)
+![Node.js CI](https://github.com/darwintantuco/eslint-config/workflows/Node.js%20CI/badge.svg)
 
 My personal eslint config
 
