@@ -8,12 +8,18 @@
   "license": "MIT",
   "devDependencies": {
     "@darwintantuco/prettier-config": "^1.0.0",
+    "husky": "^4.2.5",
     "prettier": "^2.0.4"
   },
   "prettier": "@darwintantuco/prettier-config",
   "scripts": {
     "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
     "prettier:fix": "prettier --write '**/*.{js,json,md}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn prettier:check"
+    }
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",
