@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2020-04-23
+
+- disable `react/prop-types` rule
+
 ## [1.0.2] - 2020-04-18
 
 - Update packages
