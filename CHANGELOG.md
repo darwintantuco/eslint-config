@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.5] - January 10, 2021
 
+- Fix CI
 - Update `yarn.lock`
 
 ## [1.0.4] - January 10, 2021

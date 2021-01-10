@@ -19,13 +19,27 @@ My personal eslint config
 ### npm
 
 ```
-npm install @darwintantuco/eslint-config typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-prettier --save-dev
+npm install @darwintantuco/eslint-config \
+  typescript \
+  eslint \
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-react \
+  eslint-plugin-jsx-a11y \
+  eslint-config-prettier --save-dev
 ```
 
 ### yarn
 
 ```
-$ yarn add @darwintantuco/eslint-config typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-prettier --dev
+yarn add @darwintantuco/eslint-config \
+  typescript \
+  eslint \
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-react \
+  eslint-plugin-jsx-a11y \
+  eslint-config-prettier --dev
 ```
 
 ## Usage
