@@ -35,8 +35,8 @@ Update `.eslintrc.js`
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ["@darwintantuco/eslint-config"],
-};
+  extends: ['@darwintantuco/eslint-config'],
+}
 ```
 
 Or add eslint config in `package.json`

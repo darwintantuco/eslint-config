@@ -1,6 +1,6 @@
 {
   "name": "@darwintantuco/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My personal eslint config",
   "main": "index.js",
   "repository": "git@github.com:darwintantuco/eslint-config.git",
@@ -13,8 +13,8 @@
   },
   "prettier": "@darwintantuco/prettier-config",
   "scripts": {
-    "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
-    "prettier:fix": "prettier --write '**/*.{js,json,md}'"
+    "prettier:check": "prettier --list-different .",
+    "prettier:fix": "prettier --write ."
   },
   "husky": {
     "hooks": {
